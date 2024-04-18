@@ -67,7 +67,7 @@ const removeProduct = async (id) => {
 const execute = async() => {
     //await addProduct(2, "Mercedes", 500);
     //await updateProduct(1, {price: 800});
-    //await removeProduct(2);
+    await removeProduct(2);
 };
 
 execute();
